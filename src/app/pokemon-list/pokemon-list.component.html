@@ -1,0 +1,10 @@
+<!-- pokemon grid -->
+<div class="pokemon-box">
+  <a >
+    <div routerLink="/pokemon-detail" class="box" (click)="sendMessage(pokemon.name)" *ngFor="let pokemon of pokemons">
+      <img [src]="pokemon.sprites.front_default" alt="pokemon" />
+      <b>{{ pokemon.name }}</b>
+    </div>
+  </a>
+  <!-- end -->
+</div>

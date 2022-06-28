@@ -1,0 +1,13 @@
+/* pokemon grid */
+.pokemon-grid .box{
+  margin-right: 30px;
+  padding: 20px 50px 20px 20px;
+  width: 60%;
+  height: 100px;
+  box-shadow: 1px 2px 5px rgba(0,0,0,0.3);
+}
+
+.box b{
+  display: flex;
+  align-items: top;
+}

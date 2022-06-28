@@ -1,0 +1,21 @@
+<!-- display pokemon details -->
+<div class="container">
+  <div class="row">
+    <!-- name -->
+    <h2>{{ pokemonObj.name }}</h2>
+    <!-- image -->
+    <div>
+      <img [src]="pokemonObj.sprites.front_default" alt="pokemon" />
+      <img [src]="pokemonObj.sprites.back_default" alt="pokemon" />
+    </div>
+    <!-- abilities -->
+    <b>Abilities: </b>
+    <ul>
+      <li *ngFor="let ability of pokemonObj.abilities">
+        <b>{{ ability.ability.name }}</b>
+      </li>
+    </ul>
+    <!-- height -->
+    <b>Height: {{ pokemonObj.height }}</b>
+  </div>
+</div>
