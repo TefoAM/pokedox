@@ -1,2 +1,2 @@
 # pokedox
-this repository has contains the app pokedox created using the angular 
+this repository contains all the files of the app pokedox created using the angular.
